@@ -42,6 +42,12 @@ nav a:hover{
 .container .biodata{
     display: flex;
 }
+@media screen and (max-width: 600px) {
+    .container .biodata{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 .container .biodata img{
     width: 200px;
     height: 200px;
