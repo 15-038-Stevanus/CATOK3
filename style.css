@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    background-color: rgb(218, 240, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(198, 194, 187);
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+hr{
+    margin: 20px 30px;
+    border: 1px solid rgb(87, 79, 79);
+}
+nav a {
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: rgb(212, 250, 41);
+    transform: scale(1.1);
+    transition: color 0.3s ease-in-out;
+}
+
+.container{
+    width: 80%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 16px 16px 30px -4px rgba(0,0,0,0.62);
+}
+.container .biodata{
+    display: flex;
+}
+.container .biodata img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 30px;
+    border: 2px solid black;
+    box-shadow: 16px 16px 30px -4px rgba(0,0,0,0.62);
+}
+.perkenalan{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: left;
+}
+.perkenalan p{
+    font-size: 20px;
+    text-align: justify;
+    font-family: monospace;
+    margin-right: 30px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo a:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+.container .About{
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container .About p{
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: #e1740d;
+    color: white;
+    padding: 12px;
+    border: 2px solid white;
+}
+tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) td {
+    background-color: #e6e6e6;
+}
+td {
+    padding: 8px;
+    border: 2px solid white;
+    text-align: left;
+}
+.experience{
+    margin: 30px 30px;
+    font-size: 14px;
+    text-align: left;
+}
+.experience h2{
+    text-align: center;
+}
+ul {
+    margin: 10px 10px;
+    list-style-type: square; 
+    padding: 5px; 
+    background-color: #f1f1f1; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  ul li {
+    padding: 12px 20px; 
+    border-bottom: 1px solid #ddd; 
+    transition: background-color 0.3s ease; 
+  }
+  ul li:hover {
+    background-color: #e6e6e6; 
+    cursor: pointer; 
+  }
+  ul li:last-child {
+    border-bottom: none; 
+  }
